@@ -1,11 +1,15 @@
 import React from 'react';
-import Header from './Heder';
 import './App.css';
+import Header from './Header';
+import Navigation from './Navigation';
+import Profile from './Profile';
 
 const App = () => {
   return (
     <div className="App">
-      < Header />
+      <Header />
+      <Navigation />
+      <Profile />
     </div>
   );
 }
