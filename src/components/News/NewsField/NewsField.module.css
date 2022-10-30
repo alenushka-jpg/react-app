@@ -1,0 +1,50 @@
+
+.newsField {
+  display: flex;
+  padding: 18px 18px 32px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.newsField img {
+  margin-right: 13px;
+  width: 42px;
+  height: 42px;
+  border-radius: 20px;
+}
+
+.newsField__input {
+  padding: 13px 10px;
+  border: none;
+  width: 410px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  border-radius: 10px;
+  background-color: #F6F7F8;
+}
+
+.newsField__input::placeholder {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #8FADC8;
+}
+
+.newsField__submit {
+  width: 92px;
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  background-color: #377DFF;
+}
+
+.newsField__form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

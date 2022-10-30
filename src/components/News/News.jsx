@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import classes from './News.module.css';
 import NewsField from './NewsField/NewsField'
 
 const News = () => {
   return (
-    <section className="News">
+    <section className={classes.news}>
       <NewsField />
     </section>
   );
