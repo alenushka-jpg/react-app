@@ -1,0 +1,208 @@
+.Container {
+  max-width: 1440px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Header {
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+  grid-column: 1/-1;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.Header__logo {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding-left: 8px;
+}
+
+.Header p {
+  color: #4E5D78;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.Header__input {
+  width: 540px;
+  padding-left: 42px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #8FADC8;
+  border: 1px solid #717D93;
+  border-radius: 10px;
+  background-image: url("./icon/icon-search.svg");
+  background-repeat: no-repeat;
+  background-position: 14px;
+  background-size: 17px;
+}
+
+.Header__input::placeholder {
+  color: #8FADC8;
+}
+
+.Header__profileImg {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.Header__profileName {
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #4E5D78;
+}
+
+.Header__profileImg img {
+  width: 42px;
+  height: 42px;
+  border-radius: 20px;
+}
+
+.Navigation {
+  display: flex;
+}
+
+.Navigation__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Navigation__list li {
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.Navigation__list a {
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  padding: 13px 20px;
+  color: #2A5885;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.Navigation__list .active {
+  background-color: #4E5D78;
+  border-radius: 20px;
+  color: white;
+}
+
+.Navigation__icon {
+  margin-right: 7px;
+  width: 20px;
+}
+
+.News {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #F9FAFB;
+  border-radius: 20px;
+}
+
+.NewsField {
+  display: flex;
+  padding: 18px 18px 32px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.NewsField img {
+  margin-right: 13px;
+  width: 42px;
+  height: 42px;
+  border-radius: 20px;
+}
+
+.NewsField__input {
+  padding: 13px 10px;
+  border: none;
+  width: 410px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  border-radius: 10px;
+  background-color: #F6F7F8;
+}
+
+.NewsField__input::placeholder {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #8FADC8;
+}
+
+.NewsField__submit {
+  width: 92px;
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  background-color: #377DFF;
+}
+
+.NewsField__form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

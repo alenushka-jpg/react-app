@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import Header from './Header';
 import Navigation from './Navigation';
-import Profile from './Profile';
+import News from './News';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App Container">
       <Header />
       <Navigation />
-      <Profile />
+      <News />
     </div>
   );
 }
