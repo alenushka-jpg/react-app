@@ -12,46 +12,46 @@ import iconPhotos from '../../icon/icon-photos.svg';
 
 const Navigation = () => {
   return (
-    <div className={classes.navigation}>
-      <ul className={classes.navigation__list}>
+    <nav className={classes.navigation}>
+      <ul className={classes.list}>
         <li>
-          <a className={classes.navigation__link} href='#'>
+          <a className={`${classes.link} ${classes.active}`} href='#'>
             <HandySvg src={iconHome} width="20" height="20" />
             My page
           </a>
         </li>
         <li>
-          <a className={classes.navigation__link} href='#'>
+          <a className={classes.link} href='#'>
             <HandySvg src={iconNews} width="20" height="20" />
             News
           </a>
         </li>
         <li>
-          <a className={classes.navigation__link} href='#'>
+          <a className={classes.link} href='#'>
             <HandySvg src={iconMessages} width="20" height="20" />
             Messages
           </a>
         </li>
         <li>
-          <a className={classes.navigation__link} href='#'>
+          <a className={classes.link} href='#'>
             <HandySvg src={iconFriend} width="15" height="15" />
             Friends
           </a>
         </li>
         <li>
-          <a className={classes.navigation__link} href='#'>
+          <a className={classes.link} href='#'>
             <HandySvg src={iconCommunities} width="20" height="20" />
             Communities
           </a>
         </li>
         <li>
-          <a className={classes.navigation__link} href='#'>
+          <a className={classes.link} href='#'>
             <HandySvg src={iconPhotos} width="20" height="20" />
             Photos
           </a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 

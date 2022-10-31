@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.navigation__list {
+.list {
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -10,12 +10,12 @@
   list-style: none;
 }
 
-.navigation__list li {
+.list li {
   margin-bottom: 10px;
   text-align: start;
 }
 
-.navigation__list a {
+.link {
   display: flex;
   align-items: center;
   min-width: 200px;
@@ -27,13 +27,13 @@
   text-decoration: none;
 }
 
-.navigation__list .active {
+.list .active {
   background-color: #4E5D78;
   border-radius: 20px;
   color: white;
 }
 
-.navigation__link svg {
+.link svg {
   margin-right: 7px;
   width: 20px;
 }

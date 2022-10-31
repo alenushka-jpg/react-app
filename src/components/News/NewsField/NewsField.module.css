@@ -13,7 +13,7 @@
   border-radius: 20px;
 }
 
-.newsField__input {
+.input {
   padding: 13px 10px;
   border: none;
   width: 410px;
@@ -24,14 +24,14 @@
   background-color: #F6F7F8;
 }
 
-.newsField__input::placeholder {
+.input::placeholder {
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
   color: #8FADC8;
 }
 
-.newsField__submit {
+.submit {
   width: 92px;
   padding: 10px 0;
   font-weight: 400;
@@ -43,7 +43,7 @@
   background-color: #377DFF;
 }
 
-.newsField__form {
+.form {
   display: flex;
   width: 100%;
   justify-content: space-between;

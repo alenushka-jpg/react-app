@@ -7,7 +7,7 @@
   padding-bottom: 20px;
 }
 
-.header__logo {
+.logo {
   display: flex;
   align-items: center;
   width: 300px;
@@ -20,7 +20,7 @@
   line-height: 27px;
 }
 
-.header__input {
+.input {
   width: 540px;
   padding-left: 42px;
   padding-top: 12px;
@@ -37,17 +37,17 @@
   background-size: 17px;
 }
 
-.header__input::placeholder {
+.input::placeholder {
   color: #8FADC8;
 }
 
-.header__profileImg {
+.profileImg {
   display: flex;
   align-items: center;
   justify-content: end;
 }
 
-.header__profileName {
+.profileName {
   margin-right: 20px;
   font-weight: 500;
   font-size: 14px;
@@ -55,7 +55,7 @@
   color: #4E5D78;
 }
 
-.header__profileImg img {
+.profileImg img {
   width: 42px;
   height: 42px;
   border-radius: 20px;
