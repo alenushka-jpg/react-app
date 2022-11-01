@@ -14,9 +14,9 @@
 }
 
 .input {
+  width: 390px;
   padding: 13px 10px;
   border: none;
-  width: 410px;
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
@@ -41,6 +41,7 @@
   border: none;
   border-radius: 10px;
   background-color: #377DFF;
+  cursor: pointer;
 }
 
 .form {

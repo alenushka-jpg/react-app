@@ -18,7 +18,7 @@
 .link {
   display: flex;
   align-items: center;
-  min-width: 200px;
+  width: 160px;
   padding: 13px 20px;
   color: #2A5885;
   font-weight: 500;
@@ -29,7 +29,7 @@
 
 .list .active {
   background-color: #4E5D78;
-  border-radius: 20px;
+  border-radius: 15px;
   color: white;
 }
 

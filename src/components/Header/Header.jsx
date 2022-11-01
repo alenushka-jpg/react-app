@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className={classes.header}>
       <div className={classes.logo}>
-        <HandySvg src={mobile} className="icon" width="46" height="46" />
+        <HandySvg src={mobile} width="46" height="46" />
         <p>Meetmax</p>
       </div>
 
