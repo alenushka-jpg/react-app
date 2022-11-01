@@ -1,6 +1,7 @@
 .myFriends {
   display: flex;
-  padding: 0 23px;
+  justify-content: end;
+  padding-left: 23px;
 }
 
 .input {

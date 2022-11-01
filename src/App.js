@@ -3,7 +3,8 @@ import './App.css';
 import Header from './components/Header/Header';
 import Navigation from './components/Navigation/Navigation';
 import News from './components/News/News';
-import MyFriends from './components/MyFriends/MyFriends';
+import Profile from './components/Profile/Profile';
+// import MyFriends from './components/MyFriends/MyFriends';
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       <Header />
       <Navigation />
       <News />
-      <MyFriends />
+      <Profile />
+      {/* <MyFriends /> */}
     </div>
   );
 }

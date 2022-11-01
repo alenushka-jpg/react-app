@@ -17,7 +17,7 @@ const Navigation = () => {
         <li>
           <a className={`${classes.link} ${classes.active}`} href='#'>
             <HandySvg src={iconHome} width="20" height="20" />
-            My page
+            My profile
           </a>
         </li>
         <li>
