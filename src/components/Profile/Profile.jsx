@@ -1,5 +1,6 @@
 import React from 'react';
 import './Profile.css';
+import ProfileWall from './ProfileWall/ProfileWall'
 
 const Profile = () => {
   return (
@@ -12,11 +13,9 @@ const Profile = () => {
             <span className='profile__ownerName'>Alyosha Popovich</span>
             <span className='profile__ownerProfession'>Front-end Developer</span>
           </p>
-          
         </div>
       </div>
-      
-
+      <ProfileWall />
     </section>
   );
 };

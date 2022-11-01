@@ -1,8 +1,4 @@
 .news {
-  grid-column: 3/4;
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
   background-color: #F9FAFB;
   border-radius: 20px;
 }
