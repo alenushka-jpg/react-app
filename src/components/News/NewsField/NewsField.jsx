@@ -1,15 +1,15 @@
 import React from 'react';
-import classes from './NewsField.module.css';
+import './NewsField.css';
 
 const NewsField = () => {
   return (
-    <section className={classes.newsField}>
+    <section className='newsField'>
       <img src="https://avatarko.ru/img/kartinka/3/zhivotnye_sobaka_2456.jpg" alt=""></img>
-      <form className={classes.form}>
-        <label className={classes.label}>
-          <input className={classes.input} type="text" name="news" placeholder='What is happening?'/>
+      <form className='newsField__form'>
+        <label className='newsField__label'>
+          <input className='newsField__input' type="text" name="news" placeholder='What is happening?'/>
         </label>
-        <button className={classes.submit} type="submit">Post</button>
+        <button className='newsField__submit' type="submit">Post</button>
       </form>
     </section>
   );

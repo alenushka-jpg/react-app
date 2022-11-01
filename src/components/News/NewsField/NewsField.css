@@ -14,7 +14,13 @@
   border-radius: 20px;
 }
 
-.input {
+.newsField__form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.newsField__input {
   width: 390px;
   padding: 13px 10px;
   border: none;
@@ -25,14 +31,14 @@
   background-color: #F6F7F8;
 }
 
-.input::placeholder {
+.newsField__input::placeholder {
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
   color: #8FADC8;
 }
 
-.submit {
+.newsField__submit {
   width: 92px;
   padding: 10px 0;
   font-weight: 400;
@@ -43,10 +49,4 @@
   border-radius: 10px;
   background-color: #377DFF;
   cursor: pointer;
-}
-
-.form {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
 }

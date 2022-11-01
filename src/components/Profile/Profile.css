@@ -3,12 +3,12 @@
   grid-row: 2/3;
 }
 
-.header {
+.profile__header {
   display: grid;
   grid-template-columns: 215px 1fr;
 }
 
-.background {
+.profile__background {
   grid-column: 1/-1;
   background-image: url('../../img/backgroundProfile.jpg');
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@
   border-radius: 20px;
 }
 
-.ownerProfile {
+.profile__ownerProfile {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -25,14 +25,14 @@
   padding-left: 25px;
 }
 
-.ownerProfile img {
+.profile__ownerProfile img {
   width: 160px;
   height: 160px;
   border-radius: 50%;
   z-index: 10;
 }
 
-.ownerProfile::after {
+.profile__ownerProfile::after {
   content: "";
   position: absolute;
   top: -5px;
@@ -43,25 +43,25 @@
   border-radius: 50%;
 }
 
-.ownerInfo {
+.profile__ownerInfo {
   margin: 0;
   padding-top: 20px;
 }
 
-.ownerProfile span {
+.profile__ownerInfo span {
   display: block;
   font-weight: 500;
   text-align: start;
   line-height: 120%;
 }
 
-.ownerName {
+.profile__ownerName {
   margin-bottom: 10px;
   font-size: 23px;
   color: #4E5D78;
 }
 
-.ownerProfession {
+.profile__ownerProfession {
   font-size: 16px;
   color: #A2AAB8;
 }

@@ -4,7 +4,7 @@
   padding-left: 23px;
 }
 
-.input {
+.myFriends__input {
   width: 205px;
   padding: 12px 15px 12px 42px;
   border: 1px solid #717D93;
@@ -15,7 +15,7 @@
   background-size: 17px;
 }
 
-.input::placeholder{
+.myFriends__input::placeholder{
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;

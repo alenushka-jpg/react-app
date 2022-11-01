@@ -7,24 +7,24 @@
   padding-bottom: 20px;
 }
 
-.logo {
+.header__logo {
   display: flex;
   align-items: center;
   width: 300px;
   padding-left: 8px;
 }
 
-.header p {
+.header__header p {
   color: #4E5D78;
   font-weight: 500;
   line-height: 27px;
 }
 
-.form {
+.header__form {
   display: flex;
 }
 
-.input {
+.header__input {
   width: 540px;
   padding-left: 42px;
   padding-top: 12px;
@@ -41,17 +41,17 @@
   background-size: 17px;
 }
 
-.input::placeholder {
+.header__input::placeholder {
   color: #8FADC8;
 }
 
-.profileImg {
+.header__profileImg {
   display: flex;
   align-items: center;
   justify-content: end;
 }
 
-.profileName {
+.header__profileName {
   margin-right: 20px;
   font-weight: 500;
   font-size: 14px;
@@ -59,7 +59,7 @@
   color: #4E5D78;
 }
 
-.profileImg img {
+.header__profileImg img {
   width: 42px;
   height: 42px;
   border-radius: 20px;

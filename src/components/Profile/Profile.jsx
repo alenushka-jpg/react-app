@@ -1,16 +1,16 @@
 import React from 'react';
-import classes from './Profile.module.css';
+import './Profile.css';
 
 const Profile = () => {
   return (
-    <section className={classes.profile}>
-      <div className={classes.header}>
-        <div className={classes.background}></div>
-        <div className={classes.ownerProfile}>
+    <section className='profile'>
+      <div className='profile__header'>
+        <div className='profile__background'></div>
+        <div className='profile__ownerProfile'>
           <img src="https://avatarko.ru/img/kartinka/3/zhivotnye_sobaka_2456.jpg" alt=""></img>
-          <p className={classes.ownerInfo}>
-            <span className={classes.ownerName}>Alyosha Popovich</span>
-            <span className={classes.ownerProfession}>Front-end Developer</span>
+          <p className='profile__ownerInfo'>
+            <span className='profile__ownerName'>Alyosha Popovich</span>
+            <span className='profile__ownerProfession'>Front-end Developer</span>
           </p>
           
         </div>

@@ -1,12 +1,12 @@
 import React from 'react';
-import classes from './MyFriends.module.css';
+import './MyFriends.css';
 
 const MyFriends = () => {
   return (
-    <section className={classes.myFriends}>
-      <form className={classes.form}>
-        <label className={classes.label}>
-          <input className={classes.input} type="text" placeholder='Search Friends!'/>
+    <section className='myFriends'>
+      <form className='myFriends__form'>
+        <label className='myFriends__label'>
+          <input className='myFriends__input' type="text" placeholder='Search Friends!'/>
         </label>
       </form>
     </section>
