@@ -16,7 +16,7 @@ const ProfileIntro = () => {
           Male
         </p>
         <p>
-          <HandySvg src={iconGift} width="25" height="25" />
+          <HandySvg src={iconGift} width="30" height="30" />
           Born January 19, 1999
         </p>
         <p>
@@ -25,8 +25,9 @@ const ProfileIntro = () => {
         </p>
         <p>
           <HandySvg src={iconPhone} width="19" height="32" />
-          <a href='tel:+375256999877'>+375256999877</a>
+          <a className='profileIntro__link' href='tel:+375256999877'>+375256999877</a>
         </p>
+        <button className='profileIntro__button' type="button">Edits Details</button>
       </div>
     </section>
   );

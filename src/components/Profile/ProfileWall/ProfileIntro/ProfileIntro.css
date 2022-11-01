@@ -1,7 +1,46 @@
+.profileIntro {
+  padding: 22px 17px 30px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  text-align: start;
+}
+
 .profileIntro h2 {
-  margin: 0;
+  margin: 0 0 25px;
   font-size: 23px;
   font-weight: 500;
   line-height: 120%;
   color: #4E5D78;
+}
+
+.profileIntro__info p {
+  display: flex;
+  align-items: center;
+  margin: 0 0 15px;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 120%;
+  color: #4E5D78;
+}
+
+.profileIntro__info svg {
+  margin-right: 20px;
+}
+
+.profileIntro__link {
+  text-decoration: none;
+  color: #4E5D78;
+}
+
+.profileIntro__button {
+  width: 210px;
+  padding: 10px 15px;
+  margin-top: 15px;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 120%;
+  color: #4E5D78;
+  border: none;
+  background-color: #F9FAFB;
+  border-radius: 20px;
 }
