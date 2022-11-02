@@ -15,37 +15,37 @@ const Navigation = () => {
     <nav className='navigation'>
       <ul className='navigation__list'>
         <li>
-          <a className='navigation__link active' href='#'>
+          <a className='navigation__link active' href='/profile'>
             <HandySvg src={iconHome} width="20" height="20" />
             My profile
           </a>
         </li>
         <li>
-          <a className='navigation__link' href='#'>
+          <a className='navigation__link' href='/news'>
             <HandySvg src={iconNews} width="20" height="20" />
             News
           </a>
         </li>
         <li>
-          <a className='navigation__link' href='#'>
+          <a className='navigation__link' href='/messages'>
             <HandySvg src={iconMessages} width="20" height="20" />
             Messages
           </a>
         </li>
         <li>
-          <a className='navigation__link' href='#'>
+          <a className='navigation__link' href='/friends'>
             <HandySvg src={iconFriend} width="15" height="15" />
             Friends
           </a>
         </li>
         <li>
-          <a className='navigation__link' href='#'>
+          <a className='navigation__link' href='/communities'>
             <HandySvg src={iconCommunities} width="20" height="20" />
             Communities
           </a>
         </li>
         <li>
-          <a className='navigation__link' href='#'>
+          <a className='navigation__link' href='/photos'>
             <HandySvg src={iconPhotos} width="20" height="20" />
             Photos
           </a>
