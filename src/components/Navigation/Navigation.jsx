@@ -9,46 +9,47 @@ import iconMessages from '../../icon/icon-messages.svg';
 import iconFriend from '../../icon/icon-friend.svg';
 import iconCommunities from '../../icon/icon-communities.svg';
 import iconPhotos from '../../icon/icon-photos.svg';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
   return (
     <nav className='navigation'>
       <ul className='navigation__list'>
         <li>
-          <a className='navigation__link active' href='/profile'>
+          <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/profile'>
             <HandySvg src={iconHome} width="20" height="20" />
             My profile
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a className='navigation__link' href='/news'>
+          <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/news'>
             <HandySvg src={iconNews} width="20" height="20" />
             News
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a className='navigation__link' href='/messages'>
+          <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/messages'>
             <HandySvg src={iconMessages} width="20" height="20" />
             Messages
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a className='navigation__link' href='/friends'>
+          <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/friends'>
             <HandySvg src={iconFriend} width="15" height="15" />
             Friends
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a className='navigation__link' href='/communities'>
+          <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/communities'>
             <HandySvg src={iconCommunities} width="20" height="20" />
             Communities
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a className='navigation__link' href='/photos'>
+          <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/photos'>
             <HandySvg src={iconPhotos} width="20" height="20" />
             Photos
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>
