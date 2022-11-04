@@ -10,9 +10,13 @@
   list-style: none;
 }
 
-.messages__list-name li {
+.messages__list-name a {
   display: flex;
   align-items: center;
+  text-decoration: none;
+}
+
+.messages__list-name li {
   margin-bottom: 20px;
 }
 

@@ -16,9 +16,9 @@ const App = () => {
         <Navigation />
         <div className='app__container'>
           <Routes>
-            <Route path='/profile' element={<Profile />} />
-            <Route path='/friends' element={<MyFriends />} />
-            <Route path='/messages' element={<Messages />} />
+            <Route path='/profile/*' element={<Profile />} />
+            <Route path='/friends/*' element={<MyFriends />} />
+            <Route path='/dialogs/*' element={<Messages />} />
           </Routes>
         </div>
       </div>
