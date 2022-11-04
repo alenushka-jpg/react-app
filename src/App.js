@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Navigation from './components/Navigation/Navigation';
 import Profile from './components/Profile/Profile';
 import MyFriends from './components/MyFriends/MyFriends';
+import Messages from './components/Messages/Messages';
 
 const App = () => {
   return (
@@ -15,8 +16,9 @@ const App = () => {
         <Navigation />
         <div className='app__container'>
           <Routes>
-            <Route path='*' element={<Profile />} />
+            <Route path='/profile' element={<Profile />} />
             <Route path='/friends' element={<MyFriends />} />
+            <Route path='/messages' element={<Messages />} />
           </Routes>
         </div>
       </div>
