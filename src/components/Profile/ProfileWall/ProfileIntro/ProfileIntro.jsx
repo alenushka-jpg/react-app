@@ -8,7 +8,7 @@ import iconPhone from '../../../../icon/icon-phone.svg'
 
 const ProfileIntro = () => {
   return (
-    <section className='profileIntro'>
+    <div className='profileIntro'>
       <h2>INTRO</h2>
       <div className='profileIntro__info'>
         <p>
@@ -29,7 +29,7 @@ const ProfileIntro = () => {
         </p>
         <button className='profileIntro__button' type="button">Edits Details</button>
       </div>
-    </section>
+    </div>
   );
 };
 

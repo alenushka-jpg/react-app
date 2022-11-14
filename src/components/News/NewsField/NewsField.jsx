@@ -3,7 +3,7 @@ import './NewsField.css';
 
 const NewsField = () => {
   return (
-    <section className='newsField'>
+    <div className='newsField'>
       <img src="https://avatarko.ru/img/kartinka/3/zhivotnye_sobaka_2456.jpg" alt=""></img>
       <form className='newsField__form'>
         <label className='newsField__label'>
@@ -11,7 +11,7 @@ const NewsField = () => {
         </label>
         <button className='newsField__submit' type="submit">Post</button>
       </form>
-    </section>
+    </div>
   );
 };
 

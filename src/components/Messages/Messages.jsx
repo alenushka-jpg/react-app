@@ -2,45 +2,35 @@ import React from 'react';
 import './Messages.css';
 import { NavLink } from 'react-router-dom';
 
+const DialogsItem = (props) => {
+  let path = "/dialogs/" + props.id;
+
+  return (
+    <NavLink to={path}>{props.name}</NavLink>
+  )
+}
+
 const Messages = () => {
   return (
     <div className='messages'>
       <ul className='messages__dialog-name'>
         <li>
-          <NavLink to='/dialogs/1'>
-            <img src="https://xage.ru/media/posts/2013/6/5/dogs-dressed-like-humans_3.jpg" width='41' height='41' alt=""></img>
-            <p>Jagrit Protap Bill</p>
-          </NavLink>
+          <DialogsItem name='Jagrit Protap Bill' id='1'/>
         </li>
         <li>
-          <NavLink to='/dialogs/2'>
-            <img src="https://oir.mobi/uploads/posts/2021-05/1620836820_33-oir_mobi-p-smeshnie-mordi-sobak-zhivotnie-krasivo-fot-34.jpg" width='41' height='41' alt=""></img>
-            <p>Tamara Kamil</p>
-          </NavLink>
+          <DialogsItem name='Tamara Kamil' id='2'/>
         </li>
         <li>
-          <NavLink to='/dialogs/3'>
-            <img src="https://static5.depositphotos.com/1004199/419/i/450/depositphotos_4193148-stock-photo-portrait-of-a-funny-chihuahua.jpg" width='41' height='41' alt=""></img>
-            <p>Patrica Nixon</p>
-          </NavLink>
+          <DialogsItem name='Patrica Nixon' id='3'/>
         </li>
         <li>
-        <NavLink to='/dialogs/4'>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpFDSEs1hx4yHY5rtj79QwgSSBcUvTJ-dS_DWUXMfx4fpqdQR8v8G_qAA23zc1UljT9xw&usqp=CAU" width='41' height='41' alt=""></img>
-          <p>Sam Boerger</p>
-        </NavLink>
+          <DialogsItem name='Sam Boerger' id='4'/>
         </li>
         <li>
-          <NavLink to='/dialogs/5'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8VXjALheqSeRjdVpBBVKthisa4hfvECCOew&usqp=CAU" width='41' height='41' alt=""></img>
-            <p>Jessica Keol</p>
-          </NavLink>
+          <DialogsItem name='Jessica Keol' id='5'/>
         </li>
         <li>
-          <NavLink to='/dialogs/6'>
-            <img src="https://klike.net/uploads/posts/2019-03/1553067449_3.jpg" width='41' height='41' alt=""></img>
-            <p>Lieke Jonas</p>
-          </NavLink>
+          <DialogsItem name='Lieke Jonas' id='6'/>
         </li>
       </ul>
       <ul className='messages__dialog-text'>
