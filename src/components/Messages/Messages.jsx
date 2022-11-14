@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Messages = () => {
   return (
     <div className='messages'>
-      <ul className='messages__list-name'>
+      <ul className='messages__dialog-name'>
         <li>
           <NavLink to='/dialogs/1'>
             <img src="https://xage.ru/media/posts/2013/6/5/dogs-dressed-like-humans_3.jpg" width='41' height='41' alt=""></img>
@@ -43,7 +43,7 @@ const Messages = () => {
           </NavLink>
         </li>
       </ul>
-      <ul className='messages__list-dialogs'>
+      <ul className='messages__dialog-text'>
         <li>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         </li>

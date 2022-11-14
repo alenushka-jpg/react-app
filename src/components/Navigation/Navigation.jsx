@@ -8,6 +8,7 @@ import iconNews from '../../icon/icon-news.svg';
 import iconMessages from '../../icon/icon-messages.svg';
 import iconFriend from '../../icon/icon-friend.svg';
 import iconCommunities from '../../icon/icon-communities.svg';
+import iconBell from '../../icon/icon-bell.svg';
 import iconPhotos from '../../icon/icon-photos.svg';
 import { NavLink } from 'react-router-dom';
 
@@ -24,7 +25,7 @@ const Navigation = () => {
         <li>
           <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/news'>
             <HandySvg src={iconNews} width="20" height="20" />
-            News
+            NewsiconBell
           </NavLink>
         </li>
         <li>
@@ -43,6 +44,12 @@ const Navigation = () => {
           <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/communities'>
             <HandySvg src={iconCommunities} width="20" height="20" />
             Communities
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/notification'>
+            <HandySvg src={iconBell} width="20" height="20" />
+            Notification
           </NavLink>
         </li>
         <li>
