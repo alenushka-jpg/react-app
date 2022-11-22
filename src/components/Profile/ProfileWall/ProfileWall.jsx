@@ -7,7 +7,9 @@ const ProfileWall = () => {
   return (
     <section className='profileWall'>
       <ProfileIntro />
-      <NewsField />
+      <div className='profileWall__News'>
+        <NewsField  />
+      </div>
     </section>
   );
 };

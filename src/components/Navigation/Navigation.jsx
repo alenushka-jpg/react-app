@@ -6,7 +6,6 @@ import {HandySvg} from 'handy-svg';
 import iconHome from '../../icon/icon-home.svg';
 import iconNews from '../../icon/icon-news.svg';
 import iconMessages from '../../icon/icon-messages.svg';
-import iconFriend from '../../icon/icon-friend.svg';
 import iconCommunities from '../../icon/icon-communities.svg';
 import iconBell from '../../icon/icon-bell.svg';
 import iconPhotos from '../../icon/icon-photos.svg';
@@ -32,12 +31,6 @@ const Navigation = () => {
           <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/dialogs'>
             <HandySvg src={iconMessages} width="20" height="20" />
             Messages
-          </NavLink>
-        </li>
-        <li>
-          <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/friends'>
-            <HandySvg src={iconFriend} width="15" height="15" />
-            Friends
           </NavLink>
         </li>
         <li>

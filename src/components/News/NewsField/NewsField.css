@@ -1,7 +1,6 @@
 
 .newsField {
   display: flex;
-  grid-column: 3/4;
   padding: 18px 18px 32px;
   background-color: #FFFFFF;
   border-radius: 20px;
