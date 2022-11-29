@@ -5,7 +5,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Navigation from './components/Navigation/Navigation';
 import Profile from './components/Profile/Profile';
-import News from './components/News/News'
+import NewsFeed from './components/NewsFeed/NewsFeed';
 import Messages from './components/Messages/Messages';
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
         <div className='app__container'>
           <Routes>
             <Route path='/profile/*' element={<Profile />} />
-            <Route path='/news/*' element={<News />} />
+            <Route path='/newsfeed/*' element={<NewsFeed />} />
             <Route path='/dialogs/*' element={<Messages />} />
           </Routes>
         </div>

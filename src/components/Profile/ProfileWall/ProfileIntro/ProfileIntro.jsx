@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProfileIntro.css';
-import {HandySvg} from 'handy-svg';
+import { HandySvg } from 'handy-svg';
 import iconGender from '../../../../icon/icon-gender.svg';
 import iconGift from '../../../../icon/icon-gift.svg';
 import iconLocation from '../../../../icon/icon-location.svg';

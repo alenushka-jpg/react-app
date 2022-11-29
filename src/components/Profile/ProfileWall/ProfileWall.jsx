@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProfileWall.css';
-import NewsField from '../../News/NewsField/NewsField';
+import NewsField from '../../NewsFeed/News/NewsField/NewsField';
 import ProfileIntro from './ProfileIntro/ProfileIntro'
 
 const ProfileWall = () => {
