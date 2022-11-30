@@ -9,6 +9,11 @@
   row-gap: 20px;
 }
 
+.newPost__top {
+  grid-column: 1/-1;
+  display: flex;
+}
+
 .newPost__data-user {
   display: flex;
   flex-direction: column;

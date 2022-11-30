@@ -1,6 +1,7 @@
 .postSettings {
   position: absolute;
-  right: 0;
+  right: -20px;
+  top: 50px;
   margin: 0;
   padding: 20px;
   list-style: none;
