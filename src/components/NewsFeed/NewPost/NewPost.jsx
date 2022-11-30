@@ -1,6 +1,8 @@
 import React from 'react';
 import './NewPost.css';
-import PostSettings from './PostSettings/PostSettings'
+import PostSettings from './PostSettings/PostSettings';
+import { HandySvg } from 'handy-svg';
+import iconKebab from '../../../icon/icon-kebab.svg';
 
 const NewPost = () => {
   return (
@@ -10,7 +12,10 @@ const NewPost = () => {
         <span>Sepural Gallery</span>
         <span>15h, Public</span>
       </div>
-      <PostSettings />
+      <button className='newPost__settings' type='button'>
+        <HandySvg src={iconKebab} width="20" height="20" />
+        <PostSettings />
+      </button>
       <img className='newPost__picture' src="https://assets.weforum.org/article/image/responsive_large_webp_6llmOwHcapGd0p2ilOGJBwKBQI8mnQfVmcI8Xi5F8aA.webp" weight='660' height='347' alt=""></img>
     </div>
   )

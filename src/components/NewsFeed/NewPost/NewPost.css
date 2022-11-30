@@ -29,6 +29,19 @@
   color: #BDC2CC;
 }
 
+.newPost__settings {
+  position: absolute;
+  top: 27px;
+  right: 30px;
+  margin-left: auto;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  cursor: pointer;
+}
+
 .newPost img {
   border-radius: 20px
 }

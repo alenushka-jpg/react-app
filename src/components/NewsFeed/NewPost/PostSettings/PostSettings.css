@@ -1,11 +1,42 @@
 .postSettings {
   position: absolute;
-  top: 27px;
-  right: 30px;
-  margin-left: auto;
-  width: 20px;
-  height: 20px;
+  right: 0;
+  margin: 0;
+  padding: 20px;
+  list-style: none;
+  width: 305px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgb(41 54 66 / 25%);
+  background-color: #FFFFFF;
+}
+
+.postSettings li {
+  margin-bottom: 15px;
+}
+
+.postSettings li:last-child {
+  margin-bottom: 0;
+}
+
+.postSettings button {
+  display: flex;
+  align-items: center;
+  width: 100%;
   padding: 0;
-  border: 0;
+  border: none;
   background-color: inherit;
+  text-align: start;
+  cursor: pointer;
+}
+
+.postSettings svg {
+  margin-right: 20px;
+}
+
+.postSettings__text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+  color: #4E5D78;
 }
