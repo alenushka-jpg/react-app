@@ -39,24 +39,17 @@ const Messages = () => {
     {id: 1, text: 'Donec pellentesque vitae eros vitae sollicitudin. Nullam sed dui id lorem eleifend faucibu'},
   ]
 
+  let dialogsElements = dialogName.map( d => <DialogsItem name={d.name} id={d.id} />);
+  let messageElements = dialogMessage.map( m => <DialogsText text={m.text} id={m.id} />);
+
   return (
     <div className='messages'>
       <ul className='messages__dialog-name'>
-        <DialogsItem name={dialogName[0].name} />
-        <DialogsItem name={dialogName[1].name} />
-        <DialogsItem name={dialogName[2].name} />
-        <DialogsItem name={dialogName[3].name} />
-        <DialogsItem name={dialogName[4].name} />
-        <DialogsItem name={dialogName[5].name} />
+        {dialogsElements}
       </ul>
 
       <ul className='messages__dialog-text'>
-        <DialogsText text={dialogMessage[0].text} />
-        <DialogsText text={dialogMessage[1].text} />
-        <DialogsText text={dialogMessage[2].text} />
-        <DialogsText text={dialogMessage[3].text} />
-        <DialogsText text={dialogMessage[4].text} />
-        <DialogsText text={dialogMessage[5].text} />
+        {messageElements}
       </ul>
     </div>
   );
