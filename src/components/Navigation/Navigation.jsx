@@ -28,7 +28,7 @@ const Navigation = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/dialogs'>
+          <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/messages'>
             <HandySvg src={iconMessages} width="20" height="20" />
             Messages
           </NavLink>

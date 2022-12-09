@@ -8,7 +8,8 @@ import Profile from './components/Profile/Profile';
 import NewsFeed from './components/NewsFeed/NewsFeed';
 import Messages from './components/Messages/Messages';
 
-const App = () => {
+const App = (props) => {
+
   return (
     <BrowserRouter>
       <div className="app container">
@@ -18,7 +19,7 @@ const App = () => {
           <Routes>
             <Route path='/profile/*' element={<Profile />} />
             <Route path='/newsfeed/*' element={<NewsFeed />} />
-            <Route path='/dialogs/*' element={<Messages />} />
+            <Route path='/messages/*' element={<Messages nameUser={props.nameUser} textMessage={props.textMessage}/>} />
           </Routes>
         </div>
       </div>
