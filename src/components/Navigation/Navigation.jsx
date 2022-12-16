@@ -8,7 +8,8 @@ import iconNews from '../../icon/icon-news.svg';
 import iconMessages from '../../icon/icon-messages.svg';
 import iconCommunities from '../../icon/icon-communities.svg';
 import iconBell from '../../icon/icon-bell.svg';
-import iconPhotos from '../../icon/icon-photos.svg';
+import iconSetting from '../../icon/icon-setting.svg';
+import iconLogout from '../../icon/icon-logout.svg';
 import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
@@ -46,9 +47,15 @@ const Navigation = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/photos'>
-            <HandySvg src={iconPhotos} width="20" height="20" />
-            Photos
+          <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/settings'>
+            <HandySvg src={iconSetting} width="20" height="20" />
+            Settings
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className={(navData) => navData.isActive ? 'navigation__link active' : 'navigation__link'} to='/logout'>
+            <HandySvg src={iconLogout} width="20" height="20" />
+            Logout
           </NavLink>
         </li>
       </ul>
