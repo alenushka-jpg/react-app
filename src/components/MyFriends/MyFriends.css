@@ -1,7 +1,14 @@
 .myFriends {
   display: flex;
-  justify-content: end;
-  padding-left: 23px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.myFriends__form {
+  margin: 0 auto;
 }
 
 .myFriends__input {
@@ -13,13 +20,12 @@
   background-repeat: no-repeat;
   background-position: 14px;
   background-size: 17px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: black;
 }
 
-.myFriends__input::placeholder{
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 16px;
+.myFriends__input::placeholder {
   color: #8FADC8;
 }
-
-

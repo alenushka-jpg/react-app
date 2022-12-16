@@ -1,6 +1,7 @@
 .newsFeed {
   display: grid;
   grid-template-columns: 700px 1fr;
+  column-gap: 50px;
   background-color: #F9FAFB;
   padding: 30px;
   border-radius: 20px;
