@@ -6,10 +6,11 @@ const DialogItem = (props) => {
   let path = "/dialogs/" + props.id;
 
   return (
-    <li>
+    <li key={props.name}>
       <NavLink to={path}>{props.name}</NavLink>
     </li>
   )
 }
+
 
 export default DialogItem;

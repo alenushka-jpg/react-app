@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-let messageNameUser = [
+let messagesNameUser = [
   {id: 1, name: 'Jagrit Protap Bill'},
   {id: 2, name: 'Tamara Kamil'},
   {id: 3, name: 'Patrica Nixon'},
@@ -13,7 +13,7 @@ let messageNameUser = [
   {id: 6, name: 'Lieke Jonas'},
 ]
 
-let textMessage = [
+let messagesText = [
   {id: 1, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
   {id: 2, text: 'Morbi maximus sit amet nisl placerat tristique. Mauris maximus posuere ante ac rhoncus.'},
   {id: 3, text: 'Donec tincidunt aliquet neque, eu suscipit enim consequat nec.'},
@@ -46,7 +46,7 @@ let friendsNameUser = [
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App messageNameUser={messageNameUser} textMessage={textMessage} friendsNameUser={friendsNameUser}/>
+    <App messagesNameUser={messagesNameUser} messagesText={messagesText} friendsNameUser={friendsNameUser}/>
   </React.StrictMode>
 );
 
