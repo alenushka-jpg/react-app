@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-let messagesNameUser = [
+const messagesNameUser = [
   {id: 1, name: 'Jagrit Protap Bill'},
   {id: 2, name: 'Tamara Kamil'},
   {id: 3, name: 'Patrica Nixon'},
@@ -13,7 +13,7 @@ let messagesNameUser = [
   {id: 6, name: 'Lieke Jonas'},
 ]
 
-let messagesText = [
+const messagesText = [
   {id: 1, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
   {id: 2, text: 'Morbi maximus sit amet nisl placerat tristique. Mauris maximus posuere ante ac rhoncus.'},
   {id: 3, text: 'Donec tincidunt aliquet neque, eu suscipit enim consequat nec.'},
@@ -22,7 +22,7 @@ let messagesText = [
   {id: 6, text: 'Donec pellentesque vitae eros vitae sollicitudin. Nullam sed dui id lorem eleifend faucibu'},
 ]
 
-let friendsNameUser = [
+const friendsNameUser = [
   {id: 1, name: 'Kayleigh Bysouth'},
   {id: 2, name: 'Jess Phillips MP'},
   {id: 3, name: 'Eslam Hisham'},

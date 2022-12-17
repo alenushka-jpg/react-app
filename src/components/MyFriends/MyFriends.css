@@ -1,7 +1,8 @@
 .myFriends {
   display: flex;
+  flex-direction: column;
   grid-column: 2/3;
-  grid-row: 1/2;
+  grid-row: 1/3;
   padding: 20px;
   border-radius: 20px;
   background-color: #fff;
@@ -28,4 +29,10 @@
 
 .myFriends__input::placeholder {
   color: #8FADC8;
+}
+
+.myFriends__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

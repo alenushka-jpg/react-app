@@ -15,7 +15,7 @@ const MyFriends = (props) => {
           <input className='myFriends__input' type="text" placeholder='Search Friends!' />
         </label>
       </form>
-      <ul className='myFriends__item'>
+      <ul className='myFriends__list'>
         {friendsElements}
       </ul>
     </section>
