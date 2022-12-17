@@ -4,7 +4,7 @@ import './DialogText.css';
 const DialogText = (props) => {
 
   return (
-    <li key={props}>{props.text}</li>
+    <li>{props.text}</li>
   )
 }
 

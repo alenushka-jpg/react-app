@@ -18,7 +18,7 @@ const App = (props) => {
         <div className='app__container'>
           <Routes>
             <Route path='/profile/*' element={<Profile />} />
-            <Route path='/newsfeed/*' element={<NewsFeed />} />
+            <Route path='/newsfeed/*' element={<NewsFeed friendsNameUser={props.friendsNameUser}/>} />
             <Route path='/messages/*' element={<Messages messagesNameUser={props.messagesNameUser} messagesText={props.messagesText}/>} />
           </Routes>
         </div>

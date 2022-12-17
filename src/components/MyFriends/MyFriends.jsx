@@ -1,15 +1,23 @@
 import React from 'react';
 import './MyFriends.css';
-import './FriendsList/FriendsList';
+import FriendsItem from './FriendsItem/FriendsItem';
 
-const MyFriends = () => {
+const MyFriends = (props) => {
+  const friendsNames = props.friendsNameUser;
+  const friendsElements = friendsNames.map((friendName) =>
+    <FriendsItem key={friendName.name} name={friendName.name} id={friendName.id} />
+  );
+
   return (
     <section className='myFriends'>
       <form className='myFriends__form'>
         <label className='myFriends__label'>
-          <input className='myFriends__input' type="text" placeholder='Search Friends!'/>
+          <input className='myFriends__input' type="text" placeholder='Search Friends!' />
         </label>
       </form>
+      <ul className='myFriends__item'>
+        {friendsElements}
+      </ul>
     </section>
   );
 };
