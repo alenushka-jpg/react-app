@@ -3,9 +3,8 @@ import './MyFriends.css';
 import FriendsItem from './FriendsItem/FriendsItem';
 
 const MyFriends = (props) => {
-  const friendsNames = props.friendsNameUser;
-  const friendsElements = friendsNames.map((friendName) =>
-    <FriendsItem key={friendName.name} name={friendName.name} id={friendName.id} />
+  const friendsElements = props.friendsNames.map((f) =>
+    <FriendsItem key={f.name} name={f.name} id={f.id} />
   );
 
   return (

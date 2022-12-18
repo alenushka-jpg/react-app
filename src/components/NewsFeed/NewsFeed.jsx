@@ -9,7 +9,7 @@ const NewsFeed = (props) => {
     <section className='newsFeed'>
       <News />
       <NewPosts />
-      <MyFriends friendsNameUser={props.friendsNameUser}/>
+      <MyFriends friendsNames={props.friendsNames}/>
     </section>
   )
 }
