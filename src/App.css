@@ -34,3 +34,31 @@ button {
   border: none;
   cursor: pointer;
 }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  line-height: 30px;
+  color: #4e5d78;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
