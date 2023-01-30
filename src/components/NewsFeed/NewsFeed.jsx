@@ -5,6 +5,7 @@ import NewPosts from './NewPost/NewPost';
 import MyFriends from '../MyFriends/MyFriends';
 
 const NewsFeed = (props) => {
+
   return (
     <section className='newsFeed'>
       <News />

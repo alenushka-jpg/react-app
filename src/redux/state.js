@@ -39,6 +39,17 @@ let state = {
       {id: 18, name: 'Lieke Jonas'},
     ],
   },
+  navigation: {
+    navLinkTitles: [
+      {id: 1, text: 'My profile'},
+      {id: 2, text: 'News'},
+      {id: 3, text: 'Messages'},
+      {id: 4, text: 'Communities'},
+      {id: 5, text: 'Notification'},
+      {id: 6, text: 'Settings'},
+      {id: 7, text: 'Logout'},
+    ],
+  },
 };
 
 export default state;
