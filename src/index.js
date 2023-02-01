@@ -13,6 +13,7 @@ root.render(
       dialogs={state.messenger.dialogs}
       friendsNames={state.friends.friendsNames}
       navLinkTitles={state.navigation.navLinkTitles}
+      navLinkSvg={state.navigation.navLinkSvg}
     />
   </React.StrictMode>
 );

@@ -1,3 +1,4 @@
+
 let state = {
   messenger: {
     userNames: [
@@ -41,14 +42,25 @@ let state = {
   },
   navigation: {
     navLinkTitles: [
-      {id: 1, text: 'My profile'},
-      {id: 2, text: 'News'},
-      {id: 3, text: 'Messages'},
-      {id: 4, text: 'Communities'},
-      {id: 5, text: 'Notification'},
-      {id: 6, text: 'Settings'},
-      {id: 7, text: 'Logout'},
+      {id: 1, text: 'My profile', to: '/profile'},
+      {id: 2, text: 'News', to: '/newsfeed'},
+      {id: 3, text: 'Messages', to: '/messages'},
+      {id: 4, text: 'Communities', to: '/communities'},
+      {id: 5, text: 'Notification', to: '/notification'},
+      {id: 6, text: 'Settings', to: '/settings'},
+      {id: 7, text: 'Logout', to: '/logout'},
     ],
+
+    // navLinkSvg: [
+    //   {id: 1, svg: iconHome},
+    //   {id: 2, svg: iconNews},
+    //   {id: 3, svg: iconMessages},
+    //   {id: 4, svg: iconCommunities},
+    //   {id: 5, svg: iconBell},
+    //   {id: 6, svg: iconSetting},
+    //   {id: 7, svg: iconLogout},
+    // ]
+
   },
 };
 

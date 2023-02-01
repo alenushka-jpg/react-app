@@ -14,7 +14,9 @@ const App = (props) => {
     <BrowserRouter>
       <div className="app container">
         <Header />
-        <Navigation navLinkTitles={props.navLinkTitles}/>
+        <Navigation 
+          navLinkTitles={props.navLinkTitles}
+          navLinkSvg={props.navLinkSvg}/>
         <div className='app__container'>
           <Routes>
             <Route path='/profile/*' element={<Profile />} />

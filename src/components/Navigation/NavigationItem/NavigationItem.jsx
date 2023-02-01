@@ -1,12 +1,12 @@
 import React from "react";
 import "./NavigationItem.css";
 import { NavLink } from "react-router-dom";
+// import { HandySvg } from "handy-svg";
 
 const NavigationItem = (props) => {
   return (
-    <li>
-      <NavLink className={(navData) =>
-          navData.isActive ? "navigation__link active" : "navigation__link"}>
+    <li className="navigation-item">
+      <NavLink className="navigation-item__link">
         {props.text}
       </NavLink>
     </li>

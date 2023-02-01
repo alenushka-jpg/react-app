@@ -1,0 +1,28 @@
+.navigation-item {
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+
+.navigation-item__link {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  padding: 13px 20px;
+  color: #2a5885;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+/* .navigation-item__link .active {
+  background-color: #4e5d78;
+  border-radius: 15px;
+  color: white;
+} */
+
+.navigation-item__link svg {
+  margin-right: 7px;
+  width: 20px;
+}
