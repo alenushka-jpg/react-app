@@ -7,7 +7,7 @@ import { HandySvg } from "handy-svg";
 import { NavLink } from "react-router-dom";
 import iconHome from '../../icon/icon-home.svg';
 import iconNews from '../../icon/icon-news.svg';
-import iconMessages   from '../../icon/icon-messages.svg';
+import iconMessages from '../../icon/icon-messages.svg';
 import iconCommunities from '../../icon/icon-communities.svg';
 import iconBell from '../../icon/icon-bell.svg';
 import iconSetting from '../../icon/icon-setting.svg';
